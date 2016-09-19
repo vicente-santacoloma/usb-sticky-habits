@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stickyhabits"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.stickyhabits.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.SignIn"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.MyGoals"
+            android:label="@string/title_activity_my_goals" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.CustomizeHabit"
+            android:label="@string/title_activity_add_habit" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.ChooseHabit"
+            android:label="@string/title_activity_choose_habit" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.UserProfile"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.GlobalStatistics"
+            android:label="@string/title_activity_global_statistics" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.Ranking"
+            android:label="@string/title_activity_ranking" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.Friends"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.BuyAvatar"
+            android:label="@string/title_activity_buy_avatar" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.Questionary"
+            android:label="@string/title_activity_questionary" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.ViewHabitActivity"
+            android:label="@string/title_activity_view_habit" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.HelpTermsPrivacyActivity"
+            android:label="@string/title_activity_help_terms_privacy" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.AnswerQuestionary"
+            android:label="@string/title_activity_answer_questionary" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.SelectAvatar"
+            android:label="@string/title_activity_select_avatar" >
+        </activity>
+        <activity
+            android:name="com.example.stickyhabits.StoreActivity"
+            android:label="@string/title_activity_store" >
+        </activity>
+    </application>
+
+</manifest>

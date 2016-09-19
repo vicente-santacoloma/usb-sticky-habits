@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreActivity"
+    android:background="#00A1D9" >
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton7"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_male_face_e2"
+        android:background="@drawable/home_button_shape"
+        android:onClick="buy" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_male_face_e1"
+        android:background="@drawable/home_button_shape"
+        android:onClick="buy" />
+
+    <ImageButton
+        android:id="@drawable/ic_male_face_a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/home_button_shape"
+        android:onClick="buy"
+        android:src="@drawable/ic_male_face_a4" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_centerVertical="true"
+        android:background="@drawable/home_button_shape"
+        android:src="@drawable/ic_male_face_d4"
+        android:onClick="buy" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="35dp"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:background="@drawable/home_button_shape"
+        android:src="@drawable/ic_male_face_b5"
+        android:onClick="buy" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignTop="@+id/imageButton8"
+        android:background="@drawable/home_button_shape"
+        android:src="@drawable/ic_male_face_n3"
+        android:onClick="buy" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:background="@drawable/home_button_shape"
+        android:src="@drawable/ic_male_face_b3"
+        android:onClick="buy" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/ic_male_face_a4"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:background="@drawable/home_button_shape"
+        android:onClick="buy"
+        android:src="@drawable/ic_male_face_b1" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_below="@drawable/ic_male_face_a4"
+        android:background="@drawable/home_button_shape"
+        android:onClick="buy"
+        android:src="@drawable/ic_male_face_d5" />
+
+</RelativeLayout>

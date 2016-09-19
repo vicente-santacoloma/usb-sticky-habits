@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Settings" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+   
+            <TextView
+        		android:id="@+id/textView1"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/label_shape"
+        		android:text="@string/user"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:textColor="@android:color/white" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/element_shape" >
+
+                <ToggleButton
+                    android:id="@+id/toggleButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/alarms"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/element_shape" >
+
+                <ToggleButton
+                    android:id="@+id/toggleButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textOn="@string/on"
+                    android:textOff="@string/off" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/toggleButton2"
+                    android:layout_alignBottom="@+id/toggleButton2"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/mode"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/element_shape"
+                android:gravity="center_vertical|left"
+                android:text="@string/account" 
+                android:onClick="userProfile"/>
+
+            <TextView
+        		android:id="@+id/textView3"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/label_shape"
+        		android:text="@string/about"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/element_shape"
+                    android:gravity="center_vertical|left"
+                    android:onClick="help_terms_privacy"
+                    android:text="@string/help" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/element_shape"
+                    android:gravity="center_vertical|left"
+                    android:onClick="help_terms_privacy"
+                    android:text="@string/terms" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/element_shape"
+                    android:gravity="center_vertical|left"
+                    android:onClick="help_terms_privacy"
+                    android:text="@string/privacy" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/element_shape" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="75dp"
+                        android:layout_height="46dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/version"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/number_version"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
